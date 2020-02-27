@@ -10,5 +10,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="scala-sdk-2.12.10" level="project" />
     <orderEntry type="module" module-name="beta" />
+    <!-- an example of a dependency that we have in bazel and we want in intellij -->
+    <orderEntry type="library" name="joda_time_joda_time" level="project" />
+    <!-- an example of a dependency that we have in bazel and we want in intellij -->
+    <orderEntry type="library" name="org_typelevel_cats_core_2_12" level="project" />
+    <!-- an example of a dependency that we have from bazel but is not visible, but we're putting in intellij we can't compile with things imported from here -->
+    <orderEntry type="library" name="org_typelevel_cats_kernel_2_12" level="project" />
   </component>
 </module>
