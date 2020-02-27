@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ..
+../bazel-deps/gen_maven_deps.sh generate -r "$(pwd)" -d dependencies.yaml -s 3rdparty/workspace.bzl
