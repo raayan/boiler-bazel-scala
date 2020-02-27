@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f843031-7624-4110-95ce-f8a2c0d317a4" name="Default Changelist" comment="Rough commit of a scala bazel project">
-      <change afterPath="$PROJECT_DIR$/.bazelversion" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_12_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/raayan_bazel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rdparty/3rdparty.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rdparty/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rdparty/jvm/com/typesafe/akka/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rdparty/jvm/com/typesafe/scala_logging/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rdparty/jvm/joda_time/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rdparty/jvm/org/scala_lang/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rdparty/jvm/org/scala_lang/modules/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rdparty/jvm/org/scalactic/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rdparty/jvm/org/scalatest/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rdparty/jvm/org/slf4j/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3rdparty/workspace.bzl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BUILD.bazel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WORKSPACE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alpha/BUILD.bazel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alpha/alpha.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alpha/src/main/scala/alpha/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bazel-bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bazel-out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bazel-raayan_bazel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bazel-testlogs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beta/BUILD.bazel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beta/beta.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beta/src/main/scala/beta/Worker.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raayan_bazel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +84,26 @@
       <option name="presentableId" value="Default" />
       <updated>1582773058946</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rough commit of a scala bazel project">
+      <created>1582778117363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582778117363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rough commit of a scala bazel project" />
@@ -140,10 +126,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="643" y="278" width="624" height="557" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582776288297" />
-    <state x="575" y="148" width="760" height="818" key="CommitChangelistDialog2" timestamp="1582778103814">
+    <state x="575" y="148" width="760" height="818" key="CommitChangelistDialog2" timestamp="1582778142128">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="575" y="148" width="760" height="818" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1582778103814" />
+    <state x="575" y="148" width="760" height="818" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1582778142128" />
     <state x="738" y="259" width="424" height="602" key="FileChooserDialogImpl" timestamp="1582777583531">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -156,6 +142,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="456" y="188" width="1007" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1582777887395" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1582778992458">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1582778992458" />
     <state x="626" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1582775398412">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
