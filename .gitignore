@@ -3,3 +3,5 @@
 /bazel-raayan_bazel
 /bazel-testlogs
 /.bloop/
+/.idea/
+/.metals/
