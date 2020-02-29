@@ -1,8 +1,22 @@
 load("@io_bazel_rules_scala//scala:scala.bzl", "scala_binary")
+load("//bloop:bloop.bzl", "bloop")
+
 scala_binary(
     name = "App",
+    main_class = "alpha.Main",
     deps = [
-        "//alpha"
+        "//alpha",
     ],
-    main_class = "alpha.Main"
+)
+
+bloop(
+    name = "bloop",
+    bazelbuild_rules_scala_compiler_jars = [
+        "@io_bazel_rules_scala_scala_compiler//jar:jar",
+        "@io_bazel_rules_scala_scala_library//jar:jar",
+        "@io_bazel_rules_scala_scala_reflect//jar:jar",
+    ],
+    targets = [
+        "//alpha",
+    ],
 )

@@ -1,0 +1,6 @@
+#!/bin/bash
+STUFF=$(bazel query "kind(scala_library, //... except //3rdparty/...)")
+for i in $STUFF
+do
+    echo $i
+done

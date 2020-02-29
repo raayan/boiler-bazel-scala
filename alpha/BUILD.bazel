@@ -14,5 +14,7 @@ scala_library(
 scala_test(
     name = "test-main",
     srcs = glob(["src/test/scala/alpha/*.scala"]),
-    deps = [":alpha"],
+    deps = [
+        ":alpha",
+    ],
 )
