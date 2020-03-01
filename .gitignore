@@ -5,3 +5,4 @@
 /.bloop/
 /.idea/
 /.metals/
+/node_modules/
